@@ -20,6 +20,7 @@ function oneTillDoneForLoop(number) {
    newArray.push(num)
    }return newArray
 }
+//Meh
 /**
 * Takes in a number and returns an array filled with all numbers from number to 0 (exclusive)
 * Must be a while loop
