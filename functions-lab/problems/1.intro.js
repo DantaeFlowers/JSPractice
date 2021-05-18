@@ -38,9 +38,9 @@ function returnHelloWorld() {
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
 function returnHelloName(name) {
-  let string = 'Dan'
-
-  return `Hello ${string} !`
+  let string = name
+  
+  return `Hello ${string}!`
 }
 
 module.exports = {
