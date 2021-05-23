@@ -23,6 +23,7 @@
  *
  * Is there a difference between using string notation vs
  * bracket notation? Try them both.
+ *This has been an honest headache btw Alejo
  */
 
 const appleCount = (appleCountByName, name) => {
@@ -134,7 +135,7 @@ const russiaCapital = (capitalByCountry ) => {
 const getCapital = (capitalByCountry, country) => {
   return capitalByCountry[country]
 };
-
+//This problem tripped me up a bit
 /**
  * Takes in an object of countries and their capitals
  * and adds the key value pair "Jamaica" and "Kingston"
